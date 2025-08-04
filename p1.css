@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 120%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #D5FF40;
+}
+nav{
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+nav h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+nav a{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+section{
+    padding: 60px 100px;
+}
+section .he1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.he1 h1{
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he1 .video{
+    height: 125px;
+    width: 500px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 100px;
+    background-image: url(https://images.unsplash.com/photo-1752801516481-cfb8c47ee9a3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+section .he2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.he2 h1{
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.he2 p{
+    width: 40%;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video .play{
+    height: 125px;
+    width: 125px;
+    margin: 2px;
+    background-color: #111;
+    border: 2px solid #fff;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.play i{
+    font-size: 60px;
+    color: #D5FF40;
+}
+.image{
+    height: 900px;
+    width: 90%;
+    background-color: red; 
+    background-size: cover;
+    border-radius: 70px;
+    margin-left: 140px;
+    margin-top: 20px;
+    background-image: url( https://img.freepik.com/premium-photo/3d-rendering-digital-art-illustration-variety-shapes_861655-30.jpg?w=2000);
+    background-position: center;
+    position: relative;
+}
+.image .arrow{
+    height: 260px;
+    width: 260px;
+    background-color: #111;
+    border: 2px solid white;
+    border-radius: 150px;
+    position: absolute;
+    right: 3%;
+    top: -10%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow i{
+    font-size: 220px;
+}
+#a{
+    margin: 30px;
+    font-size: 50px;
+    padding: 10px 40px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: #D5FF40;
+}
+#b{
+    margin: 30px;
+    font-size: 50px;
+    padding: 10px 40px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: #D5FF40;
+}
+.butt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
